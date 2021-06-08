@@ -3,9 +3,9 @@
 This is a repository for testing applicants in their knowledge of react / react-native. The **goal** is to create a registration page within the project structure using Redux, Saga, React-Native-Elements, React-Native-Paper, and React-Navigation in this application. What **doesn't** need to be implemented is communicate to any public facing API.
 
 ## The Requirements ##
- 1) Create Registration Page.
- 2) Basic email and password validation.
- 3) When validation passes "submit" and navigate away.
+ 1. Create Registration Page.
+ 1. Basic email and password validation.
+ 1. When validation passes "submit" and navigate away.
 
 ### Project Break Down ###
 Within the src file there are major areas for different key sections of the  
