@@ -26,3 +26,12 @@ export function* login(params)
     }
 }
 
+export function* register(params)
+{
+    // register api call
+
+
+    // navigate to login page
+    RootNavigation.navigate("LoginScreen")
+}
+
