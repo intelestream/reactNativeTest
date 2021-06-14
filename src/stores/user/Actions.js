@@ -6,6 +6,8 @@ const Types = {
     FETCH_USER_SUCCESS: (user) => ({payload: {user}}),
     FETCH_USER_FAILURE: (errorMessage) => ({payload: {errorMessage}}),
 
+    USER_REGISTER: (login) => ({payload: {login}}),
+
     USER_LOGIN: (login) => ({payload: {login}}),
     USER_LOGGING_IN: null,
     USER_LOGIN_SUCCESS: (user) => ({payload: {user}}),

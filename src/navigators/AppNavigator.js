@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 import LoginScreen from 'src/screens/Login'
 import SplashScreen from 'src/screens/Splash'
+import RegisterScreen from '../screens/Register'
 
 const Stack = createStackNavigator()
 
@@ -29,6 +30,12 @@ const AppNavigator = () => {
                 name="LoginScreen" 
                 component={LoginScreen}
                 options={{ title: 'Login', headerTitleAlign: 'center'}}
+            />
+
+            <Stack.Screen 
+                name="RegisterScreen" 
+                component={RegisterScreen}
+                options={{ title: 'Register', headerTitleAlign: 'center'}}
             />
             
         </Stack.Navigator>
